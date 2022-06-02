@@ -22,6 +22,8 @@ class MemberRepositoryV1Test {
     void beforeEach() {
         //DriverManagerDataSource
 //        DriverManagerDataSource dataSource = new DriverManagerDataSource(URL, USERNAME, PASSWORD);
+
+        //HikariDatasource ConnectionPool
         HikariDataSource dataSource = new HikariDataSource();
         dataSource.setJdbcUrl(URL);
         dataSource.setUsername(USERNAME);
