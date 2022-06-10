@@ -3,6 +3,7 @@ package hello.jdbc.repository;
 import com.zaxxer.hikari.HikariDataSource;
 import hello.jdbc.connection.ConnectionConst;
 import hello.jdbc.domain.Member;
+import hello.jdbc.repository.MemberRepositoryV1;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
