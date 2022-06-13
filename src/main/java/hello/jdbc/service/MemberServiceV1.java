@@ -6,6 +6,9 @@ import lombok.RequiredArgsConstructor;
 
 import java.sql.SQLException;
 
+/**
+ * JDBC API 사용
+ */
 @RequiredArgsConstructor
 public class MemberServiceV1 {
     private final MemberRepositoryV1 memberRepository;

@@ -11,6 +11,10 @@ import org.springframework.transaction.support.TransactionTemplate;
 
 import java.sql.SQLException;
 
+/**
+ * Transaction 동기화 및 트랜잭션 시작 사용
+ * TransactionTemplate, TransactionManager, TransactionSynchronizationManager
+ */
 @Slf4j
 public class MemberServiceV3_2 {
 

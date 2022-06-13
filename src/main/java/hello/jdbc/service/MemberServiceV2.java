@@ -9,6 +9,10 @@ import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.SQLException;
 
+/**
+ * 트랜잭션 선언
+ * Connection 수동 커넥션
+ */
 @Slf4j
 @RequiredArgsConstructor
 public class MemberServiceV2 {

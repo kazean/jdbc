@@ -12,6 +12,10 @@ import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.SQLException;
 
+/**
+ * 트랜잭션 종속성 해결
+ * TransactionManager, TransactionSynchronizationManager
+ */
 @Slf4j
 @RequiredArgsConstructor
 public class MemberServiceV3_1 {
